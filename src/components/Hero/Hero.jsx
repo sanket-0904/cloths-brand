@@ -3,6 +3,7 @@ import style from "./Hero.module.css";
 import "@fontsource/spartan"; // ✅ Direct import
 import "@fontsource/poppins/500.css"; // popppins font
 import Cards from "../Cards/Cards";
+import Products from "../Products/Products";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
           <h2>Super value deals</h2>
           <h1>On all products</h1>
           <p>Save more with coupons & up to 70% off!</p>
-          <button>Shop Now</button>
+          <button className={style.buttons}>Shop Now</button>
         </div>
       </div>
       <Cards />
@@ -21,6 +22,7 @@ const Hero = () => {
         <h1>Featured Products</h1>
         <p>Summer Collection New Morden Design</p>
       </div>
+      <Products />
     </div>
   );
 };

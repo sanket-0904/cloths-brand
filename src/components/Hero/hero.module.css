@@ -41,7 +41,7 @@ p {
   font-family: cursive;
 }
 
-button {
+.buttons {
   font-size: 17px;
   color: #088178;
   font-weight: 600;

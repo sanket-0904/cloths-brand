@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  height: 70vh;
+  margin: 20px 80px;
+}
+
+li {
+  display: flex;
+  align-items: start;
+  color: goldenrod;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
