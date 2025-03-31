@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./navbar.module.css"; // Corrected CSS module import path
-import logo from "../../img/logo.png"; // Adjusted the path to the logo image
+import logo from "/img/logo.png"; // Corrected image import path
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // ✅ Import kiya
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 

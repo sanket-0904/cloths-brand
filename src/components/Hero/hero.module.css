@@ -5,7 +5,7 @@
 }
 
 .hero {
-  background: url(../../img/hero4.png);
+  background: url(/img/hero4.png);
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -48,7 +48,7 @@ button {
   border: none;
   margin-top: 10px;
   padding: 14px 80px 14px 65px;
-  background: url(./../../img/button.png);
+  background: url(/img/button.png);
   background-position: center;
   background-size: cover;
   cursor: pointer;
