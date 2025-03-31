@@ -53,3 +53,19 @@ button {
   background-size: cover;
   cursor: pointer;
 }
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  gap: -1rem;
+  margin: 50px 0px;
+}
+
+.title h1 {
+  font-size: 47px;
+  color: #222222;
+  font-family: "poppins", sans-serif;
+}

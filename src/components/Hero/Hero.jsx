@@ -17,6 +17,10 @@ const Hero = () => {
         </div>
       </div>
       <Cards />
+      <div className={style.title}>
+        <h1>Featured Products</h1>
+        <p>Summer Collection New Morden Design</p>
+      </div>
     </div>
   );
 };
