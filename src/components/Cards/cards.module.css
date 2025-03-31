@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 20px solid black;
+}
+
+.f1 {
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-family: poppins;
+  font-size: 14px;
+  background-color: #fddde4;
+  color: #088178;
+}
+
+.f2 {
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-family: poppins;
+  font-size: 14px;
+  background-color: #cdebbc;
+  color: #088178;
+}
+
+.f3 {
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-family: poppins;
+  font-size: 14px;
+  background-color: #d1e8f2;
+  color: #088178;
+}
+
+.f4 {
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-family: poppins;
+  font-size: 14px;
+  background-color: #cdd4f8;
+  color: #088178;
+}
+
+.f5 {
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-family: poppins;
+  font-size: 14px;
+  background-color: #f6dbf6;
+  color: #088178;
+}
+
+.f6 {
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-family: poppins;
+  font-size: 14px;
+  background-color: #fff2e5;
+  color: #088178;
+}
