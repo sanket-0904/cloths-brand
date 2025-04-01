@@ -7,6 +7,7 @@ import Products from "../Products/Products";
 import Banners from "../Banner/Banner";
 import Productstwo from "../Productstwo/Productstwo";
 import Smbanners from "./Smbanner/Smbanner.jsx";
+import Bannerthrees from "./Bannerthree/Bannerthree.jsx";
 
 const Hero = () => {
   return (
@@ -33,6 +34,7 @@ const Hero = () => {
       </div>
       <Productstwo />
       <Smbanners />
+      <Bannerthrees />
     </div>
   );
 };
