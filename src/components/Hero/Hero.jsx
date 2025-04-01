@@ -5,6 +5,7 @@ import "@fontsource/poppins/500.css"; // popppins font
 import Cards from "../Cards/Cards";
 import Products from "../Products/Products";
 import Banners from "../Banner/Banner";
+import Productstwo from "../Productstwo/Productstwo";
 
 const Hero = () => {
   return (
@@ -29,6 +30,7 @@ const Hero = () => {
         <h1>New Arrivals</h1>
         <p>Summer Collection New Morden Design</p>
       </div>
+      <Productstwo />
     </div>
   );
 };
