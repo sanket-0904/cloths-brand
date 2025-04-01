@@ -6,6 +6,7 @@ import Cards from "../Cards/Cards";
 import Products from "../Products/Products";
 import Banners from "../Banner/Banner";
 import Productstwo from "../Productstwo/Productstwo";
+import { Smbanners } from "./Smbanner/Smbanner";
 
 const Hero = () => {
   return (
@@ -31,6 +32,7 @@ const Hero = () => {
         <p>Summer Collection New Morden Design</p>
       </div>
       <Productstwo />
+      <Smbanners />
     </div>
   );
 };
