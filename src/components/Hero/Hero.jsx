@@ -6,7 +6,7 @@ import Cards from "../Cards/Cards";
 import Products from "../Products/Products";
 import Banners from "../Banner/Banner";
 import Productstwo from "../Productstwo/Productstwo";
-import { Smbanners } from "./Smbanner/Smbanner";
+import Smbanners from "./Smbanner/Smbanner.jsx";
 
 const Hero = () => {
   return (
