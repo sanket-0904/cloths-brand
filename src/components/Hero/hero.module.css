@@ -66,6 +66,7 @@ p {
 
 .title h1 {
   font-size: 47px;
+  letter-spacing: 1px;
   color: #222222;
   font-family: "poppins", sans-serif;
 }

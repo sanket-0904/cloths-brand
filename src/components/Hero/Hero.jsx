@@ -4,6 +4,7 @@ import "@fontsource/spartan"; // ✅ Direct import
 import "@fontsource/poppins/500.css"; // popppins font
 import Cards from "../Cards/Cards";
 import Products from "../Products/Products";
+import Banners from "../Banner/Banner";
 
 const Hero = () => {
   return (
@@ -23,6 +24,11 @@ const Hero = () => {
         <p>Summer Collection New Morden Design</p>
       </div>
       <Products />
+      <Banners />
+      <div className={style.title}>
+        <h1>New Arrivals</h1>
+        <p>Summer Collection New Morden Design</p>
+      </div>
     </div>
   );
 };

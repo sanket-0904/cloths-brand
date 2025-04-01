@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bgimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(./../../../public/img/banner/b2.jpg);
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 70px 0px;
+}
+
+.bgimg h2 {
+  color: aliceblue;
+}
+
+.bgimg h4 {
+  color: aliceblue;
+}
+
+button {
+  font-family: poppins;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+button:hover {
+  color: aliceblue;
+  background-color: #088178;
+}
+
+.bgimg h2 {
+  font-family: poppins;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+h2 span {
+  color: red;
+  display: inline;
+}
