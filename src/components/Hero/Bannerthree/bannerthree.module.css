@@ -20,6 +20,24 @@
   color: red;
 }
 
+.bannerbox2 h5 {
+  color: red;
+}
+
+.bannerbox2 h4 {
+  font-size: 22px;
+  color: aliceblue;
+}
+
+.bannerbox3 h5 {
+  color: red;
+}
+
+.bannerbox3 h4 {
+  font-size: 22px;
+  color: aliceblue;
+}
+
 .bannerbox1 {
   display: flex;
   align-items: center;
