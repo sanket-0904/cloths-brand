@@ -9,6 +9,7 @@ import Productstwo from "../Productstwo/Productstwo";
 import Smbanners from "./Smbanner/Smbanner.jsx";
 import Bannerthrees from "./Bannerthree/Bannerthree.jsx";
 import Newslatter from "./Newsletter/Newslatter.jsx";
+import Futter from "./../Futter/Futter.jsx";
 
 const Hero = () => {
   return (
@@ -37,6 +38,7 @@ const Hero = () => {
       <Smbanners />
       <Bannerthrees />
       <Newslatter />
+      <Futter />
     </div>
   );
 };
