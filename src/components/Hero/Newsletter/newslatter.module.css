@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #041e42;
+  height: auto;
+  width: 100%;
+  background-image: url(./../../../../public/img/banner/b14.png);
+  background-size: start;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 70px 0px;
+  color: rgb(155, 165, 173);
+  padding: 40px 80px;
+  font-family: poppins;
+}
+
+.content h4 {
+  color: aliceblue;
+}
+
+.content span {
+  display: inline-block;
+  color: orange;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email input {
+  padding: 12px 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.email button {
+  color: #fff;
+  background-color: #088178;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+}

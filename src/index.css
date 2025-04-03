@@ -26,6 +26,7 @@ body {
   padding: 10px;
   border-radius: 22px;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .products img {
@@ -72,4 +73,5 @@ body {
 .buy:hover {
   color: #fff;
   background-color: #1f8b8a;
+  cursor: pointer;
 }
