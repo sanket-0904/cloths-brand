@@ -8,6 +8,7 @@ import Banners from "../Banner/Banner";
 import Productstwo from "../Productstwo/Productstwo";
 import Smbanners from "./Smbanner/Smbanner.jsx";
 import Bannerthrees from "./Bannerthree/Bannerthree.jsx";
+import Newslatter from "./Newsletter/Newslatter.jsx";
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
           <h2>Super value deals</h2>
           <h1>On all products</h1>
           <p>Save more with coupons & up to 70% off!</p>
-          <button className={style.buttons}>Shop Now</button>
+          <button className={style.herobtn}>Shop Now</button>
         </div>
       </div>
       <Cards />
@@ -35,6 +36,7 @@ const Hero = () => {
       <Productstwo />
       <Smbanners />
       <Bannerthrees />
+      <Newslatter />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Banner = () => {
         <h2>
           Up to <span>70% Off</span> - All t-Shirts & Accessories
         </h2>
-        <button>Explore More</button>
+        <button className={styles.bannerimg}>Explore More</button>
       </div>
     </div>
   );
