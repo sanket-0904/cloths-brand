@@ -2,14 +2,14 @@ import React from "react";
 import style from "./Hero.module.css";
 import "@fontsource/spartan"; // ✅ Direct import
 import "@fontsource/poppins/500.css"; // popppins font
-import Cards from "../Cards/Cards";
-import Products from "../Products/Products";
-import Banners from "../Banner/Banner";
-import Productstwo from "../Productstwo/Productstwo";
-import Smbanners from "./Smbanner/Smbanner.jsx";
-import Bannerthrees from "./Bannerthree/Bannerthree.jsx";
-import Newslatter from "./Newsletter/Newslatter.jsx";
-import Futter from "./../Futter/Futter.jsx";
+import Cards from "../../Cards/Cards.jsx";
+import Products from "../../Products/Products.jsx";
+import Banners from "../../Banner/Banner.jsx";
+import Productstwo from "../../Productstwo/Productstwo.jsx";
+import Smbanners from "../Smbanner/Smbanner.jsx";
+import Bannerthrees from "../Bannerthree/Bannerthree.jsx";
+import Newslatter from "../Newsletter/Newslatter.jsx";
+import Futter from "../../Footer/Footer.jsx";
 
 const Hero = () => {
   return (

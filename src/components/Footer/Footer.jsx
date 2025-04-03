@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./futter.module.css";
+import styles from "./footer.module.css";
 import logo from "./../../../public/img/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
