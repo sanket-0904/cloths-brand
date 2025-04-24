@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./navbar.module.css"; // Corrected CSS module import path
 import logo from "/img/logo.png"; // Corrected image import path
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // ✅ Import kiya
@@ -11,10 +12,15 @@ const Navbar = () => {
         <img src={logo} alt="logo" width={100} />
       </div>
       <div className={styles.menu}>
-        <a href="#">Menu</a>
-        <a href="#">Shop</a>
-        <a href="#">Blog</a>
-        <a href="#">About</a>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/Menu/menu.jsx">Menu</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
         <FontAwesomeIcon icon={faShoppingCart} />
       </div>
     </nav>

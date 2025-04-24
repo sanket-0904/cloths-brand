@@ -1,12 +1,16 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero/Hero";
+import Hero from "./components/Pages/Hero/Hero";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <Router>
+        <Navbar />
+        <Hero />
+        {/* <AppRoutes /> */}
+      </Router>
     </div>
   );
 };

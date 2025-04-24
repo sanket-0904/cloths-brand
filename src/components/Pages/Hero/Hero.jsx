@@ -6,9 +6,9 @@ import Cards from "../../Cards/Cards.jsx";
 import Products from "../../Products/Products.jsx";
 import Banners from "../../Banner/Banner.jsx";
 import Productstwo from "../../Productstwo/Productstwo.jsx";
-import Smbanners from "../Smbanner/Smbanner.jsx";
-import Bannerthrees from "../Bannerthree/Bannerthree.jsx";
-import Newslatter from "../Newsletter/Newslatter.jsx";
+import Smbanners from "../../Hero/Smbanner/Smbanner.jsx";
+import Bannerthrees from "../../Hero/Bannerthree/Bannerthree.jsx";
+import Newslatter from "../../Hero/Newsletter/Newslatter.jsx";
 import Futter from "../../Footer/Footer.jsx";
 
 const Hero = () => {
