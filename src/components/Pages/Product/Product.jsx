@@ -24,6 +24,8 @@ export default function Product() {
           </div>
         </div>
         <div className={styles.contents}>
+          <p>Home / T-Shirt</p>
+          <br />
           <h5>Men's Fashion T Shirt</h5>
           <p class="price">$139.00</p>
 
@@ -38,7 +40,7 @@ export default function Product() {
           <button>Add To Cart</button>
 
           <h3>Product Details</h3>
-          <p>
+          <p className={styles.content}>
             The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz.
             per sq. yd. fabric constructed from 100% cotton, this classic fit
             preshrunk jersey knit provides unmatched comfort with each wear.
