@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link to="/about">Shop</Link> {/* Yeh About page kholega */}
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Product</Link>
           </li>
           <li>
             <FontAwesomeIcon icon={faShoppingCart} />

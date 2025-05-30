@@ -2,8 +2,10 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Pages/Hero/Hero";
+import Newslatter from "./components/Hero/Newsletter/Newslatter";
 import About from "./components/Pages/About/ABout";
-import Contact from "./components/Pages/Contact/Contact"; // Assume contact page exists
+import Contact from "./components/Pages/Product/Product"; // Assume contact page exists
+import Footer from "./components/Footer/Footer"; // Assume footer component exists
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
+      <Newslatter />
+      <Footer />
     </BrowserRouter>
   );
 };

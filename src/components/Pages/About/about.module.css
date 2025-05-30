@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "cursive", sans-serif;
+}
+
+.aboutContainer {
+  margin-top: 1px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("./../../../../public/img/banner/b1.jpg");
+  height: 40vh;
+  width: 100%;
+  color: aliceblue;
+  background-size: cover;
+  margin-bottom: 70px;
+  gap: 10px;
+}
+
+.aboutContainer h1 {
+  font-size: 47px;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.aboutContainer h5 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.buttons button {
+  font-size: 17px;
+  color: #088178;
+}
+
+.buttons button:hover {
+  color: #fff;
+}

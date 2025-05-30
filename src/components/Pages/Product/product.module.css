@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.img {
+  flex: 1;
+}
+
+.mainimg img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.imgs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.imgs img {
+  width: 23%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.imgs img:hover {
+  transform: scale(1.05);
+}
+
+.contents {
+  flex: 1;
+}
+
+.contents h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contents .price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contents select,
+.contents button {
+  margin: 10px 0;
+  padding: 10px;
+  /* width: 100%; */
+  font-size: 16px;
+}
+
+.contents button {
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contents button:hover {
+  background-color: #005f5f;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 7px;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  gap: -1rem;
+  margin: 50px 0px;
+}
+
+.title h1 {
+  font-size: 47px;
+  letter-spacing: 1px;
+  color: #222222;
+  font-family: "poppins", sans-serif;
+}
