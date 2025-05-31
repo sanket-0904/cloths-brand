@@ -20,9 +20,15 @@ const Navbar = () => {
             <Link to="/about">Shop</Link> {/* Yeh About page kholega */}
           </li>
           <li>
-            <Link to="/contact">Product</Link>
+            <Link to="/Blog">Blog</Link>
           </li>
           <li>
+            <Link to="/About">About</Link> {/* Yeh About page kholega */}
+          </li>
+          <li>
+            <Link to="/Contact">Contact</Link> {/* Yeh Contact page kholega */}
+          </li>
+          <li className={styles.cart}>
             <FontAwesomeIcon icon={faShoppingCart} />
           </li>
         </ul>

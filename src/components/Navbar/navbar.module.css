@@ -9,7 +9,7 @@
   justify-content: space-between;
   padding: 22px 80px;
   background: #e3e6f3;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   z-index: 999;
   position: sticky;
   top: 0;
@@ -48,4 +48,8 @@
 
 .menu a:hover {
   color: #088178;
+}
+
+.cart {
+  color: black;
 }

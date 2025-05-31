@@ -15,7 +15,10 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 const Products = () => {
   return (
     <div className={styles.main}>
-      <div className="products">
+      <div
+        className="products"
+        onClick={() => (window.location.href = "/Contact")}
+      >
         <img src={pro1} alt="product1" />
         <div className="content">
           <p>adidas</p>
