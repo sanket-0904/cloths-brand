@@ -7,6 +7,7 @@ import About from "./components/Pages/About/ABout";
 import Contact from "./components/Pages/Product/Product"; // Assume contact page exists
 import Footer from "./components/Footer/Footer"; // Assume footer component exists
 import Blog from "./components/Pages/Blog/Blog";
+import Aboutus from "./components/Pages/Aboutus/Aboutus";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/Shop" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Blog" element={<Blog />} />
+        <Route path="/Aboutus" element={<Aboutus />} />
       </Routes>
       <Newslatter />
       <Footer />

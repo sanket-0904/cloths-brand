@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link to="/Blog">Blog</Link>
           </li>
           <li>
-            <Link to="/About">About</Link> {/* Yeh About page kholega */}
+            <Link to="/Aboutus">About-us</Link> {/* Yeh About page kholega */}
           </li>
           <li>
             <Link to="/Contact">Contact</Link> {/* Yeh Contact page kholega */}
