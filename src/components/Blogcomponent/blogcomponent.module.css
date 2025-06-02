@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.bone .img {
+  margin: 70px;
+  overflow: hidden;
+  height: 250px;
+  position: relative;
+}
+
+.bone .img img {
+  object-fit: cover;
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+  width: 570px;
+}
+
+.content {
+  width: 450px;
+}
+
+.content p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.content button {
+  border: 2px solid #eaeaea;
+}
