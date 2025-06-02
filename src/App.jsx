@@ -4,10 +4,11 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Pages/Hero/Hero";
 import Newslatter from "./components/Hero/Newsletter/Newslatter";
 import About from "./components/Pages/About/ABout";
-import Contact from "./components/Pages/Product/Product"; // Assume contact page exists
+import Product from "./components/Pages/Product/Product"; // Assume contact page exists
 import Footer from "./components/Footer/Footer"; // Assume footer component exists
 import Blog from "./components/Pages/Blog/Blog";
 import Aboutus from "./components/Pages/Aboutus/Aboutus";
+import Contact from "./components/Pages/Contact/Contact";
 
 const App = () => {
   return (
@@ -16,9 +17,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/Shop" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Product" element={<Product />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Aboutus" element={<Aboutus />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Newslatter />
       <Footer />

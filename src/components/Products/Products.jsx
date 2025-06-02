@@ -17,7 +17,7 @@ const Products = () => {
     <div className={styles.main}>
       <div
         className="products"
-        onClick={() => (window.location.href = "/Contact")}
+        onClick={() => (window.location.href = "/Product")}
       >
         <img src={pro1} alt="product1" />
         <div className="content">
