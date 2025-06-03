@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Hero.module.css";
+import style from "./../Hero/hero.module.css";
 import "@fontsource/spartan"; // ✅ Direct import
 import "@fontsource/poppins/500.css"; // popppins font
 import Cards from "../../Cards/Cards.jsx";

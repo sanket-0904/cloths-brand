@@ -32,6 +32,9 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faShoppingCart} />
           </li>
         </ul>
+        <div className={styles.mobile}>
+          <FontAwesomeIcon icon="fa-solid fa-bars" />
+        </div>
       </nav>
     </>
   );
