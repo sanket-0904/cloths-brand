@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Newslatter.module.css";
+import styles from "./../Newsletter/newslatter.module.css";
 
 const Newslatter = () => {
   return (
