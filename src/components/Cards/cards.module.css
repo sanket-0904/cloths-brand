@@ -18,6 +18,7 @@
   align-items: center;
   justify-content: center;
   border: 20px solid black;
+  flex-wrap: wrap;
 }
 
 .f1 {
@@ -72,4 +73,22 @@
   font-size: 14px;
   background-color: #fff2e5;
   color: #088178;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
