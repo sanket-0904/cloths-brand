@@ -49,3 +49,31 @@
   border-bottom-left-radius: 0px;
   border: none;
 }
+
+@media (max-width: 480px) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .content h4 {
+    font-size: 1.5rem;
+  }
+
+  .content span {
+    font-size: 1rem;
+  }
+
+  .email input {
+    padding: 10px;
+  }
+
+  .email button {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
