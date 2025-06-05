@@ -77,3 +77,26 @@
     padding: 10px;
   }
 }
+
+@media (min-width: 481px) and (max-width: 991px) {
+  .main {
+    padding: 40px 60px;
+  }
+
+  .content h4 {
+    font-size: 2rem;
+  }
+
+  .content span {
+    font-size: 1.2rem;
+  }
+
+  .email input {
+    padding: 12px 40px;
+  }
+
+  .email button {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+}
