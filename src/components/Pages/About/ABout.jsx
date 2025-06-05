@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./about.module.css";
+import styles from "./About.module.css";
 import Products from "../../Products/Products";
 import Productstwo from "../../Productstwo/Productstwo";
 
