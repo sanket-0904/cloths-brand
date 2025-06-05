@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Pages/Hero/Hero";
-import Newslatter from "./components/Hero/Newsletter/Newsletter";
+import Newsletter from "./components/Hero/Newsletter/Newsletter";
 import About from "./components/Pages/About/ABout";
 import Product from "./components/Pages/Product/Product"; // Assume contact page exists
 import Footer from "./components/Footer/Footer"; // Assume footer component exists
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/Aboutus" element={<Aboutus />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
-      <Newslatter />
+      <Newsletter />
       <Footer />
     </BrowserRouter>
   );
