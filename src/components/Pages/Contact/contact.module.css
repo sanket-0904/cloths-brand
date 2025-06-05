@@ -137,3 +137,20 @@
   font-size: 14px;
   color: gray;
 }
+
+@media (max-width: 480px) {
+  .contactInfo {
+    margin: 20px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+  }
+  .contactSection {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+}
