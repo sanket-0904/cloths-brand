@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Productstwo from "./../../Productstwo/Productstwo";
-import styles from "./Product.module.css"; // Adjust the path as necessary
+import styles from "./Product.module.css";
 import pro1 from "./../../../../public/img/products/f1.jpg";
 import pro2 from "./../../../../public/img/products/f2.jpg";
 import pro3 from "./../../../../public/img/products/f3.jpg";
