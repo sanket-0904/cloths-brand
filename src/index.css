@@ -79,3 +79,12 @@ body::-webkit-scrollbar {
   background-color: #1f8b8a;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .products {
+    width: 100%; /* full width of mobile screen */
+    height: auto; /* automatic height according to content */
+    margin: 0 20px;
+    border-radius: 16px;
+  }
+}

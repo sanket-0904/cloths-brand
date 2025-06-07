@@ -25,3 +25,11 @@ span {
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
