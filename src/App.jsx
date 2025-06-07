@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Pages/Hero/Hero";
 import Newsletter from "./components/Hero/Newsletter/Newsletter";
 import About from "./components/Pages/About/ABout";
-import Products from "./components/Pages/Products/Products"; // Assume contact page exists
+import Products from "./components/Products/Products"; // Assume contact page exists
 import Footer from "./components/Footer/Footer"; // Assume footer component exists
 import Blog from "./components/Pages/Blog/Blog";
 import Aboutus from "./components/Pages/Aboutus/Aboutus";
