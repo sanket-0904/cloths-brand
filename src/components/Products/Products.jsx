@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./products.module.css";
+import styles from "./Products.module.css";
 import pro1 from "/public/img/products/f1.jpg";
 import pro2 from "/public/img/products/f2.jpg";
 import pro3 from "/public/img/products/f3.jpg";
