@@ -19,6 +19,7 @@ body::-webkit-scrollbar {
   margin: 0 20px;
   gap: 1.5rem;
   padding: 20px;
+  border-radius: 7px;
 }
 
 .products {
@@ -86,5 +87,8 @@ body::-webkit-scrollbar {
     height: auto; /* automatic height according to content */
     margin: 0 20px;
     border-radius: 16px;
+  }
+  .cards {
+    width: 37%;
   }
 }
